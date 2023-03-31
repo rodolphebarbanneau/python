@@ -2,6 +2,99 @@
 
 ![For loop sucks!](../assets/for_loop_sucks.png)
 
+## Cheat sheet
+
+```python
+"""
+Les listes (list) :
+Utilisation pour des collections ordonnées d'éléments modifiables
+"""
+ma_liste = [1, 2, 2, 3, 3, 3] # Déclaration d'une liste
+ma_liste.append(4) # Ajouter un élément à la fin de la liste [1, 2, 2, 3, 3, 3, 4]
+ma_liste[0] = 0 # Modifier un élément de la liste [0, 2, 2, 3, 3, 3, 4]
+ma_liste.pop() # Supprimer le dernier élément de la liste [0, 2, 2, 3, 3, 3]
+print(ma_liste) # Afficher la liste
+
+# Slicing
+ma_liste = ma_liste[1:] # Supprimer le premier élément de la liste [2, 2, 3, 3, 3]
+ma_liste = ma_liste[:-1] # Supprimer le dernier élément de la liste [2, 2, 3, 3]
+ma_liste = ma_liste[1:-1] # Supprimer le premier et le dernier élément de la liste [2, 3, 3]
+ma_liste = ma_liste[::2] # Supprimer tous les éléments d'index pairs de la liste [2, 3]
+ma_liste = ma_liste[::-1] # Inverser l'ordre des éléments de la liste [3, 2]
+print(ma_liste) # Afficher la liste
+
+# Compréhension de liste
+ma_liste = [x for x in range(10)] # Créer une liste de 10 éléments de 0 à 9
+ma_liste = [x for x in range(10) if x % 2 == 0] # Créer une liste de 5 éléments pairs de 0 à 8
+print(ma_liste) # Afficher la liste [0, 2, 4, 6, 8]
+
+"""
+Les tuples (tuple) :
+Utilisation pour des collections ordonnées d'éléments immuables
+"""
+mon_tuple = (1, 2, 2, 3) # Déclaration d'un tuple
+a, b, c, d = mon_tuple # Déballage d'un tuple
+mon_tuple[0] # Accès à un élément d'un tuple
+mon_tuple[0] = 0 # Erreur : un tuple est immuable
+print(a, b, c, d) # Afficher les éléments du tuple (1, 2, 2, 3)
+
+"""
+Les ensembles (set) :
+Utilisation pour des collections non-ordonnées d'éléments uniques
+"""
+mon_set = {1, 2, 3} # Déclaration d'un ensemble
+mon_set.add(4) # Ajouter un élément à l'ensemble
+mon_set.add(4) # Ajouter un élément déjà présent à l'ensemble
+mon_set.discard(3) # Supprimer un élément de l'ensemble
+print(mon_set) # Afficher l'ensemble {1, 2, 4}
+
+"""
+Les dictionnaires (dict) :
+Utilisation pour des collections non-ordonnées de paires clé-valeur
+"""
+mon_dict = {"cle1": "valeur1", "cle2": "valeur2"} # Déclaration d'un dictionnaire
+mon_dict["cle1"] # Accès à une valeur via sa clé
+mon_dict["cle3"] = "valeur3" # Ajout d'une paire clé-valeur
+del mon_dict["cle2"] # Suppression d'une paire clé-valeur
+print(mon_dict) # Afficher le dictionnaire {"cle1": "valeur1", "cle3": "valeur3"}
+
+"""
+Les boucles `for` :
+Utilisation pour répéter un bloc d'instructions un nombre défini de fois
+"""
+for i in range(5): # Boucle `for` sur une plage de nombres
+    print(i) # Afficher les nombres de 0 à 4
+
+for i in range(5, 10): # Boucle `for` sur une plage de nombres
+    print(i) # Afficher les nombres de 5 à 9
+
+for i in range(5, 10, 2): # Boucle `for` sur une plage de nombres
+    print(i) # Afficher les nombres de 5 à 9 par pas de 2
+
+for i in range(10, 5, -1): # Boucle `for` sur une plage de nombres
+    print(i) # Afficher les nombres de 10 à 6
+
+"""
+Les boucles `while` :
+Utilisation pour répéter un bloc d'instructions tant qu'une condition est vraie
+"""
+i = 0 # Initialisation d'une variable
+while i < 5: # Boucle `while` tant que la condition est vraie
+    print(i) # Afficher les nombres de 0 à 4
+    i += 1 # Incrémenter la variable
+
+"""
+Les conditions :
+Utilisation pour exécuter un bloc d'instructions si une condition est vraie
+"""
+if 1 < 2: # Condition
+    print("1 est inférieur à 2") # Afficher le message
+elif 1 > 2: # Sinon si
+    print("1 est supérieur à 2") # Afficher le message
+else: # Sinon
+    print("1 est égal à 2") # Afficher le message
+```
+
 ## Partie 1 : Les listes
 
 ### Qu'est-ce qu'une liste en Python ?
