@@ -1,5 +1,9 @@
 # Semaine 2 : Variables de base, chaînes de caractères et opérateurs
 
+<p align="center">
+  <img src="../assets/lets_get_this_started.png" alt="Let's get this started!" width="500"
+</p>
+
 ## Partie 1 : Les variables
 
 ### Qu'est-ce qu'une variable en Python ?

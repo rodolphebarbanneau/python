@@ -1,5 +1,9 @@
 # Semaine 3 : Variables avancées et structures de contrôle de flux
 
+<p align="center">
+  <img src="../assets/for_loop_sucks.png" alt="For loop sucks!" width="500"
+</p>
+
 ## Partie 1 : Les listes
 
 ### Qu'est-ce qu'une liste en Python ?
@@ -300,3 +304,19 @@ ma_liste = [1, 2, 3, 4, 5]
 ma_liste_copie = [element for element in ma_liste if element % 2 == 0]
 print(ma_liste_copie)  # Affiche [2, 4]
 ```
+
+## Partie 2 : Les tuples
+Les tuples en Python sont des listes immuables. Les tuples sont déclarés en utilisant des parenthèses. Voici un exemple de déclaration de tuple en Python :
+```python
+# Déclaration du tuple
+mon_tuple = (1, 2, 3, 4, 5)
+```
+Les tuples sont déclarés en utilisant des parenthèses. Les tuples sont des listes immuables. Cela signifie que les tuples ne peuvent pas être modifiés après leur déclaration. Voici un exemple de tuple en Python :
+```python
+# Déclaration du tuple
+mon_tuple = (1, 2, 3, 4, 5)
+
+# Modification du tuple
+mon_tuple[0] = 6  # Erreur
+```
+
