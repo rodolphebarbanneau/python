@@ -1,26 +1,36 @@
 # Apprendre le Python avec Lucas
 
-## Semaine 1 : Introduction à Python
-- Présentation de Python et des concepts de base de la programmation
+## Semaine 0 : Introduction à Python
+- Présentation de Python
 - Installation de Python et de l'environnement de développement intégré (IDE)
-- Écriture de programmes simples en Python pour comprendre les concepts de base
+- Ressources supplémentaires
 
-## Semaine 2 : Variables, opérateurs et contrôle de flux
-- Apprendre à utiliser des variables pour stocker des données
-- Comprendre les opérateurs et les expressions arithmétiques en Python
-- Apprendre à utiliser les structures de contrôle de flux, comme les instructions if et while
+## Semaine 1 : Concepts de base de la programmation
+- Présentation de Python et des concepts de base de la programmation
+- Variable et types de données de base et avancés
+- Les opérateurs arithmétiques, de comparaison et logiques
+- Les structures de contrôle de flux
+- Les fonctions natives de Python
 
-## Semaine 3 : Fonctions et modules
+## Semaine 2 : Variables, chaînes de caractères et opérateurs
+- Comprendre ce qu'est une variable et comment créer des variables en Python
+- Utilisation des variables de base pour effectuer des opérations courantes en Python
+- Comprendre les chaînes de caractères et comment les manipuler en Python
+- Utilisation des opérateurs arithmétiques, de comparaison et logiques en Python
+
+## Semaine 3 : Variables avancées et structures de contrôle de flux
+- Définition des listes, des ensembles, des tuples et des dictionnaires
+- Accès, manipulation et modification des éléments
+- Utilisation des méthodes natives
+- Utilisation des structures de contrôle de flux
+
+## Semaine 4 : Fonctions et modules
 - Comprendre ce qu'est une fonction et comment créer des fonctions en Python
 - Apprendre à utiliser des modules pour organiser du code et pour réutiliser du code existant
 
-## Semaine 4 : Les chaînes de caractères et les listes
-- Comprendre les chaînes de caractères et comment les manipuler en Python
-- Apprendre à utiliser les listes pour stocker des collections d'éléments
-
-## Semaine 5 : Les dictionnaires et les fichiers
-- Comprendre les dictionnaires et comment les utiliser en Python
+## Semaine 5 : Fichiers
 - Apprendre à lire et écrire des fichiers en Python
+- Apprendre à utiliser des fichiers CSV et JSON en Python
 
 ## Semaine 6 : Programmation orientée objet
 - Comprendre les concepts de base de la programmation orientée objet (POO)
