@@ -5,50 +5,50 @@
 - Installation de Python et de l'environnement de développement intégré (IDE)
 - Ressources supplémentaires
 
-## [Semaine 1 : Concepts de base de la programmation](docs/01/cours.md)
+## [Sprint 1 : Concepts de base de la programmation](docs/01/cours.md)
 - Présentation de Python et des concepts de base de la programmation
 - Variable et types de données de base et avancés
 - Les opérateurs arithmétiques, de comparaison et logiques
 - Les structures de contrôle de flux
 - Les fonctions natives de Python
 
-## [Semaine 2 : Variables de base, chaînes de caractères et opérateurs](docs/02/cours.md)
+## [Sprint 2 : Variables de base, chaînes de caractères et opérateurs](docs/02/cours.md)
 - Comprendre ce qu'est une variable et comment créer des variables en Python
 - Utilisation des variables de base pour effectuer des opérations courantes en Python
 - Comprendre les chaînes de caractères et comment les manipuler en Python
 - Utilisation des opérateurs arithmétiques, de comparaison et logiques en Python
 
-## [Semaine 3 : Variables avancées et structures de contrôle de flux](docs/03/cours.md)
+## [Sprint 3 : Variables avancées et structures de contrôle de flux](docs/03/cours.md)
 - Définition des listes, des ensembles, des tuples et des dictionnaires
 - Accès, manipulation et modification des éléments
 - Utilisation des méthodes natives
 - Utilisation des structures de contrôle de flux
 
-## [Semaine 4 : Fonctions et modules](docs/04/cours.md)
+## [Sprint 4 : Fonctions et modules](docs/04/cours.md)
 - Comprendre ce qu'est une fonction et comment créer des fonctions en Python
 - Apprendre à utiliser des modules pour organiser du code et pour réutiliser du code existant
 
-## [Semaine 5 : Fichiers](docs/05/cours.md)
+## [Sprint 5 : Fichiers](docs/05/cours.md)
 - Apprendre à lire et écrire des fichiers en Python
 - Apprendre à utiliser des fichiers CSV et JSON en Python
 
-## [Semaine 6 : Programmation orientée objet](docs/06/cours.md)
+## [Sprint 6 : Programmation orientée objet](docs/06/cours.md)
 - Comprendre les concepts de base de la programmation orientée objet (POO)
 - Apprendre à créer des classes et des objets en Python
 
-## [Semaine 7 : Bibliothèques et modules Python courants](docs/07/cours.md)
+## [Sprint 7 : Bibliothèques et modules Python courants](docs/07/cours.md)
 - Présentation de bibliothèques couramment utilisées en Python, comme Numpy, Pandas et Matplotlib
 - Comprendre comment utiliser ces bibliothèques pour effectuer des opérations courantes en Python
 
-## [Semaine 8 : Interface utilisateur graphique (GUI)](docs/08/cours.md)
+## [Sprint 8 : Interface utilisateur graphique (GUI)](docs/08/cours.md)
 - Introduction aux interfaces utilisateur graphiques (GUI) en Python
 - Utilisation du module tkinter pour créer une interface utilisateur graphique simple
 
-## [Semaine 9 : Base de données](docs/09/cours.md)
+## [Sprint 9 : Base de données](docs/09/cours.md)
 - Comprendre les bases de données et les concepts SQL
 - Utilisation du module sqlite pour stocker des données dans une base de données SQLite
 
-## [Semaine 10 : Application Desktop](docs/10/cours.md)
-- Utilisation des connaissances acquises au cours des neuf premières semaines pour développer une petite application desktop
+## [Sprint 10 : Application Desktop](docs/10/cours.md)
+- Utilisation des connaissances acquises au cours des neuf premiers sprints pour développer une petite application desktop
 - Utilisation de tkinter pour créer une interface utilisateur graphique
 - Stockage des données dans une base de données SQLite

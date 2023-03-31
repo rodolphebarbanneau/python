@@ -1,9 +1,8 @@
-# Semaine 3 : Variables avancées et structures de contrôle de flux
+# Sprint 3 : Variables avancées et structures de contrôle de flux
 
 ![For loop sucks!](../assets/for_loop_sucks.png)
 
-## Cheat sheet
-
+## Cheatsheet
 ```python
 """
 Les listes (list) :
