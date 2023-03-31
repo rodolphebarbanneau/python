@@ -1,8 +1,6 @@
 # Introduction à Python
 
-<p align="center">
-  <img src="./assets/listen_here_noob.png" alt="Listen here, n00b..." width="500"
-</p>
+![Listen here, n00b...](./assets/listen_here_noob.png)
 
 ## Partie 1 : Présentation de Python
 
