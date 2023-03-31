@@ -99,7 +99,7 @@ print(ma_liste_3)  # Affiche [1, 2, 3, 4, 5, 6]
 ### Méthodes courantes de manipulation de listes en Python
 Il existe plusieurs méthodes courantes pour manipuler les listes en Python. Voici quelques exemples :
 
-- **`ma_liste.append(x)`** : Ajoute un élément `x` à la fin de la liste.
+#### **`ma_liste.append(x)`** : Ajoute un élément `x` à la fin de la liste.
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
@@ -109,7 +109,7 @@ ma_liste.append(6)
 print(ma_liste)  # Affiche [1, 2, 3, 4, 5, 6]
 ```
 
-- **`ma_liste.extend(iterable)`** : Ajoute tous les éléments d'un itérable `iterable` à la fin de la liste.
+#### **`ma_liste.extend(iterable)`** : Ajoute tous les éléments d'un itérable `iterable` à la fin de la liste.
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
@@ -119,7 +119,7 @@ ma_liste.extend([6, 7, 8])
 print(ma_liste)  # Affiche [1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
-- **`ma_liste.insert(i, x)`** : Insère un élément `x` à l'index `i` de la liste.
+#### **`ma_liste.insert(i, x)`** : Insère un élément `x` à l'index `i` de la liste.
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
@@ -129,7 +129,7 @@ ma_liste.insert(2, 6)
 print(ma_liste)  # Affiche [1, 2, 6, 3, 4, 5]
 ```
 
-- **`ma_liste.pop(i)`** : Supprime l'élément à l'index `i` de la liste et le retourne.
+#### **`ma_liste.pop(i)`** : Supprime l'élément à l'index `i` de la liste et le retourne.
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
@@ -139,7 +139,7 @@ ma_liste.pop(2)
 print(ma_liste)  # Affiche [1, 2, 4, 5]
 ```
 
-- **`ma_liste.remove(x)`** : Supprime l'élément `x` de la liste.
+#### **`ma_liste.remove(x)`** : Supprime l'élément `x` de la liste.
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
@@ -149,7 +149,7 @@ ma_liste.remove(3)
 print(ma_liste)  # Affiche [1, 2, 4, 5]
 ```
 
-- **`ma_liste.clear()`** : Supprime tous les éléments de la liste.
+#### **`ma_liste.clear()`** : Supprime tous les éléments de la liste.
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
@@ -159,7 +159,7 @@ ma_liste.clear()
 print(ma_liste)  # Affiche []
 ```
 
-- **`ma_liste.index(x)`** : Retourne l'index de l'élément `x` dans la liste.
+#### **`ma_liste.index(x)`** : Retourne l'index de l'élément `x` dans la liste.
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
@@ -168,7 +168,7 @@ ma_liste = [1, 2, 3, 4, 5]
 print(ma_liste.index(3))  # Affiche 2
 ```
 
-- **`ma_liste.count(x)`** : Retourne le nombre d'occurrences de l'élément `x` dans la liste.
+#### **`ma_liste.count(x)`** : Retourne le nombre d'occurrences de l'élément `x` dans la liste.
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5, 3]
@@ -177,7 +177,7 @@ ma_liste = [1, 2, 3, 4, 5, 3]
 print(ma_liste.count(3))  # Affiche 2
 ```
 
-- **`ma_liste.sort()`** : Trie la liste.
+#### **`ma_liste.sort()`** : Trie la liste.
 ```python
 # Déclaration de la liste
 ma_liste = [5, 2, 3, 4, 1]
@@ -187,7 +187,7 @@ ma_liste.sort()
 print(ma_liste)  # Affiche [1, 2, 3, 4, 5]
 ```
 
-- **`ma_liste.reverse()`** : Inverse l'ordre des éléments de la liste.
+#### **`ma_liste.reverse()`** : Inverse l'ordre des éléments de la liste.
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
@@ -197,7 +197,7 @@ ma_liste.reverse()
 print(ma_liste)  # Affiche [5, 4, 3, 2, 1]
 ```
 
-- **`ma_liste.copy()`** : Retourne une copie de la liste.
+#### **`ma_liste.copy()`** : Retourne une copie de la liste.
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
@@ -231,7 +231,7 @@ Il est important de noter que ces méthodes modifient la liste sur laquelle elle
 ### Utilisation avancée des listes en Python
 Les listes en Python offrent de nombreuses possibilités pour manipuler les données de manière efficace. Voici quelques exemples d'utilisations avancées des listes :
 
-- **Slicing** : Il est possible de créer une nouvelle liste à partir d'une liste existante en utilisant le slicing. Le slicing permet de sélectionner une partie d'une liste en utilisant la syntaxe suivante : `ma_liste[start:stop:step]`. Voici un exemple de slicing sur une liste en Python :
+#### **Slicing** : Il est possible de créer une nouvelle liste à partir d'une liste existante en utilisant le slicing. Le slicing permet de sélectionner une partie d'une liste en utilisant la syntaxe suivante : `ma_liste[start:stop:step]`. Voici un exemple de slicing sur une liste en Python :
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
@@ -268,7 +268,7 @@ ma_liste_copie = ma_liste[::2]
 print(ma_liste_copie)  # Affiche [1, 3, 5]
 ```
 
-- **Compréhension de liste** : Il est possible de créer une nouvelle liste à partir d'une liste existante en utilisant la compréhension de liste. La compréhension de liste permet de créer une nouvelle liste en appliquant une fonction à chaque élément d'une liste. Voici un exemple de compréhension de liste en Python :
+#### **Compréhension de liste** : Il est possible de créer une nouvelle liste à partir d'une liste existante en utilisant la compréhension de liste. La compréhension de liste permet de créer une nouvelle liste en appliquant une fonction à chaque élément d'une liste. Voici un exemple de compréhension de liste en Python :
 ```python
 # Déclaration de la liste
 ma_liste = [1, 2, 3, 4, 5]
