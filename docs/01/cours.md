@@ -153,4 +153,4 @@ print("Aire du cercle : ", aire)
     Écrire un programme Python qui demande à l'utilisateur de saisir un nombre et affiche le carré de ce nombre.
 
 ### Exercice 3
-    Ecire un programme Python qui demande à l'utilisateur de saisir un nombre et indique si ce nombre est pair ou impair.
+    Ecrire un programme Python qui demande à l'utilisateur de saisir un nombre et indique si ce nombre est pair ou impair.
