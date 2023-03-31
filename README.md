@@ -12,7 +12,7 @@
 - Les structures de contrôle de flux
 - Les fonctions natives de Python
 
-## [Semaine 2 : Variables, chaînes de caractères et opérateurs](docs/02/cours.md)
+## [Semaine 2 : Variables de base, chaînes de caractères et opérateurs](docs/02/cours.md)
 - Comprendre ce qu'est une variable et comment créer des variables en Python
 - Utilisation des variables de base pour effectuer des opérations courantes en Python
 - Comprendre les chaînes de caractères et comment les manipuler en Python

@@ -1,4 +1,4 @@
-# Semaine 2 : Variables, chaînes de caractères et opérateurs
+# Semaine 2 : Variables de base, chaînes de caractères et opérateurs
 
 ## Partie 1 : Les variables
 
