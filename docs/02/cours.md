@@ -1,8 +1,6 @@
 # Semaine 2 : Variables de base, chaînes de caractères et opérateurs
 
-<p align="center">
-  <img src="../assets/lets_get_this_started.png" alt="Let's get this started!" width="500"
-</p>
+![Let's get this started!](../assets/lets_get_this_started.png)
 
 ## Partie 1 : Les variables
 

@@ -1,8 +1,6 @@
 # Semaine 1 : Concepts de base de la programmation
 
-<p align="center">
-  <img src="../assets/python_natives.png" alt="Guy learning Python..." width="500"
-</p>
+![Guy learning Python...](../assets/python_natives.png)
 
 ## Partie 1 : Les variables
 Une variable est un espace de stockage pour une valeur. En Python, vous pouvez déclarer et initialiser une variable comme ceci :
