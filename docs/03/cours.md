@@ -348,3 +348,11 @@ print(resultat) # affiche (3, 1)
 Dans cet exemple, la fonction divmod renvoie deux valeurs en utilisant un tuple. La variable resultat contient ensuite ce tuple.
 
 En conclusion, les tuples sont utiles dans des situations où l'on veut des données immuables et où l'on veut pouvoir utiliser des objets comme des clés dans des dictionnaires. Bien qu'ils ne soient pas aussi flexibles que les listes, ils sont néanmoins très utiles dans certaines situations.
+
+## Partie 3 : Les ensembles
+
+## Partie 4 : Les dictionnaires
+
+## Partie 5 : Les structures de contrôle
+
+## Partie 6 : Exercices

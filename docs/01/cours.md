@@ -147,16 +147,10 @@ print("Aire du cercle : ", aire)
 ## Partie 6 : Exercices
 
 ### Exercice 1
-```
-Écrire un programme Python qui demande à l'utilisateur son nom et son âge et affiche un message de bienvenue avec ces informations. Si l'utilisateur a moins de 18 ans, afficher un message d'erreur. Si l'utilisateur a plus de 18 ans, afficher un message de succès.
-```
+    Écrire un programme Python qui demande à l'utilisateur son nom et son âge et affiche un message de bienvenue avec ces informations. Si l'utilisateur a moins de 18 ans, afficher un message d'erreur. Si l'utilisateur a plus de 18 ans, afficher un message de succès.
 
 ### Exercice 2
-```
-Écrire un programme Python qui demande à l'utilisateur de saisir un nombre et affiche le carré de ce nombre.
-```
+    Écrire un programme Python qui demande à l'utilisateur de saisir un nombre et affiche le carré de ce nombre.
 
 ### Exercice 3
-```
-Ecire un programme Python qui demande à l'utilisateur de saisir un nombre et indique si ce nombre est pair ou impair.
-```
+    Ecire un programme Python qui demande à l'utilisateur de saisir un nombre et indique si ce nombre est pair ou impair.
