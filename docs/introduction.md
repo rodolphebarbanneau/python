@@ -67,10 +67,10 @@ def ma_fonction():
 ## Partie 3 : Ressources supplémentaires
 
 Sites web utiles pour apprendre Python :
-- https://www.python.org/
-- https://docs.python.org/3/tutorial/
-- https://realpython.com/
-- https://stackoverflow.com/questions/tagged/python
+- [https://www.python.org/](https://www.python.org/)
+- [https://docs.python.org/3/tutorial/](https://docs.python.org/3/tutorial/)
+- [https://realpython.com/](https://realpython.com/)
+- [https://stackoverflow.com/questions/tagged/python](https://stackoverflow.com/questions/tagged/python)
 
 Livres recommandés sur Python :
 - "Learning Python" de Mark Lutz
