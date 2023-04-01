@@ -48,12 +48,12 @@ def ma_fonction():
 ## Partie 2 : Installation de Python et VS Code
 
 ### Installation de Python sur Windows
-- Allez sur le site officiel de Python : https://www.python.org/downloads/
+- Allez sur le site officiel de Python : [https://www.python.org/downloads](https://www.python.org/downloads)
 - Téléchargez la dernière version de Python pour Windows
 - Exécutez le programme d'installation et suivez les instructions à l'écran
 
 ### Installation de VS Code sur Windows
-- Allez sur le site officiel de VS Code : https://code.visualstudio.com/download
+- Allez sur le site officiel de VS Code : [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 - Téléchargez la dernière version de VS Code pour Windows
 - Exécutez le programme d'installation et suivez les instructions à l'écran
 
@@ -67,9 +67,9 @@ def ma_fonction():
 ## Partie 3 : Ressources supplémentaires
 
 Sites web utiles pour apprendre Python :
-- [https://www.python.org/](https://www.python.org/)
-- [https://docs.python.org/3/tutorial/](https://docs.python.org/3/tutorial/)
-- [https://realpython.com/](https://realpython.com/)
+- [https://www.python.org](https://www.python.org)
+- [https://docs.python.org/3/tutorial](https://docs.python.org/3/tutorial)
+- [https://realpython.com](https://realpython.com)
 - [https://stackoverflow.com/questions/tagged/python](https://stackoverflow.com/questions/tagged/python)
 
 Livres recommandés sur Python :

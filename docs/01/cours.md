@@ -2,10 +2,6 @@
 
 ![Guy learning Python...](../assets/python_natives.png)
 
-## Cheatsheet
-```python
-```
-
 ## Partie 1 : Les variables
 Une variable est un espace de stockage pour une valeur. En Python, vous pouvez déclarer et initialiser une variable comme ceci :
 ```python
@@ -150,11 +146,11 @@ print("Aire du cercle : ", aire)
 
 ## Partie 6 : Exercices
 
-### Exercice 1
-    Écrire un programme Python qui demande à l'utilisateur son nom et son âge et affiche un message de bienvenue avec ces informations. Si l'utilisateur a moins de 18 ans, afficher un message d'erreur. Si l'utilisateur a plus de 18 ans, afficher un message de succès.
+### Exercice 1 : Message de bienvenue
+>Écrire un programme Python qui demande à l'utilisateur son nom et son âge et affiche un message de bienvenue avec ces informations. Si l'utilisateur a moins de 18 ans, afficher un message d'erreur. Si l'utilisateur a plus de 18 ans, afficher un message de succès.
 
-### Exercice 2
-    Écrire un programme Python qui demande à l'utilisateur de saisir un nombre et affiche le carré de ce nombre.
+### Exercice 2 : Carré d'un nombre
+>Écrire un programme Python qui demande à l'utilisateur de saisir un nombre et affiche le carré de ce nombre.
 
-### Exercice 3
-    Ecrire un programme Python qui demande à l'utilisateur de saisir un nombre et indique si ce nombre est pair ou impair.
+### Exercice 3 : Nombre pair ou impair
+>Ecrire un programme Python qui demande à l'utilisateur de saisir un nombre et indique si ce nombre est pair ou impair.

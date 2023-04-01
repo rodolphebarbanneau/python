@@ -1,4 +1,4 @@
-# Sprint 3 : Variables avancées et structures de contrôle de flux
+# Sprint 3 : Variables avancées
 
 ![For loop sucks!](../assets/for_loop_sucks.png)
 
@@ -56,42 +56,6 @@ mon_dict["cle1"] # Accès à une valeur via sa clé
 mon_dict["cle3"] = "valeur3" # Ajout d'une paire clé-valeur
 del mon_dict["cle2"] # Suppression d'une paire clé-valeur
 print(mon_dict) # Afficher le dictionnaire {"cle1": "valeur1", "cle3": "valeur3"}
-
-"""
-Les boucles `for` :
-Utilisation pour répéter un bloc d'instructions un nombre défini de fois
-"""
-for i in range(5): # Boucle `for` sur une plage de nombres
-    print(i) # Afficher les nombres de 0 à 4
-
-for i in range(5, 10): # Boucle `for` sur une plage de nombres
-    print(i) # Afficher les nombres de 5 à 9
-
-for i in range(5, 10, 2): # Boucle `for` sur une plage de nombres
-    print(i) # Afficher les nombres de 5 à 9 par pas de 2
-
-for i in range(10, 5, -1): # Boucle `for` sur une plage de nombres
-    print(i) # Afficher les nombres de 10 à 6
-
-"""
-Les boucles `while` :
-Utilisation pour répéter un bloc d'instructions tant qu'une condition est vraie
-"""
-i = 0 # Initialisation d'une variable
-while i < 5: # Boucle `while` tant que la condition est vraie
-    print(i) # Afficher les nombres de 0 à 4
-    i += 1 # Incrémenter la variable
-
-"""
-Les conditions :
-Utilisation pour exécuter un bloc d'instructions si une condition est vraie
-"""
-if 1 < 2: # Condition
-    print("1 est inférieur à 2") # Afficher le message
-elif 1 > 2: # Sinon si
-    print("1 est supérieur à 2") # Afficher le message
-else: # Sinon
-    print("1 est égal à 2") # Afficher le message
 ```
 
 ## Partie 1 : Les listes
@@ -176,7 +140,6 @@ print(ma_liste)  # Affiche [1, 6, 3, 4, 5]
 ```
 
 Dans cet exemple, nous avons déclaré une liste `ma_liste` et nous avons modifié son deuxième élément (dont l'index est 1) en lui assignant la valeur 6.
-
 
 ### Concaténation de listes en Python
 Il est possible de concaténer deux listes en Python en utilisant l'opérateur `+`. Voici un exemple de concaténation de listes en Python :
@@ -826,7 +789,285 @@ print(len(mon_ensemble))  # Affiche 8
 ```
 
 ## Partie 4 : Les dictionnaires
+Un dictionnaire est une structure de données qui permet de stocker des paires de clés-valeurs. En Python, un dictionnaire est défini avec des accolades `{}` et les paires clé-valeur sont séparées par des virgules `,`. La clé et la valeur sont séparées par un deux-points `:`.
 
-## Partie 5 : Les structures de contrôle
+### Création d'un dictionnaire en Python
+Pour déclarer un dictionnaire avec des paires clé-valeur en Python, il suffit d'utiliser des accolades `{}` et de séparer les paires clé-valeur par des virgules `,` :
+```python
+# Déclaration d'un dictionnaire vide
+mon_dictionnaire = {}
 
-## Partie 6 : Exercices
+# Déclaration d'un dictionnaire avec des paires clé-valeur
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+```
+
+### Accès aux valeurs d'un dictionnaire en Python
+Pour accéder à une valeur dans un dictionnaire, vous pouvez utiliser la clé correspondante entre crochets `[]` :
+```python
+# Déclaration d'un dictionnaire avec des paires clé-valeur
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Accès à la valeur de la clé "nom"
+print(mon_dictionnaire["nom"])  # Affiche "Dupont"
+```
+
+### Modification des valeurs d'un dictionnaire en Python
+Pour modifier une valeur dans un dictionnaire, vous pouvez utiliser la clé correspondante entre crochets `[]` :
+```python
+# Déclaration d'un dictionnaire avec des paires clé-valeur
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Modification de la valeur de la clé "nom"
+mon_dictionnaire["nom"] = "Durand"
+print(mon_dictionnaire)  # Affiche {"nom": "Durand", "prenom": "Jean", "age": 25}
+```
+
+### Ajout de paires clé-valeur dans un dictionnaire en Python
+Pour ajouter une paire clé-valeur dans un dictionnaire, vous pouvez utiliser la clé correspondante entre crochets `[]` :
+```python
+# Déclaration d'un dictionnaire avec des paires clé-valeur
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Ajout d'une paire clé-valeur
+mon_dictionnaire["ville"] = "Paris"
+print(mon_dictionnaire)  # Affiche {"nom": "Dupont", "prenom": "Jean", "age": 25, "ville": "Paris"}
+```
+
+### Suppression d'une paire clé-valeur dans un dictionnaire en Python
+Pour supprimer une paire clé-valeur dans un dictionnaire, vous pouvez utiliser la méthode `pop()` :
+```python
+# Déclaration d'un dictionnaire avec des paires clé-valeur
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Suppression de la paire clé-valeur (méthode pop)
+mon_dictionnaire.pop("nom")
+print(mon_dictionnaire)  # Affiche {"prenom": "Jean", "age": 25}
+
+# Suppression de la paire clé-valeur (méthode del)
+del mon_dictionnaire["prenom"]
+print(mon_dictionnaire)  # Affiche {"age": 25}
+```
+
+### Parcours des paires clé-valeur d'un dictionnaire en Python
+Il est possible de parcourir les paires clé-valeur d'un dictionnaire en Python grâce à la boucle `for`, la méthode `items()` est utilisée pour parcourir simultanément les clés et les valeurs du dictionnaire
+```python
+# Déclaration d'un dictionnaire avec des paires clé-valeur
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Parcours des paires clé-valeur (méthode sans tuple)
+for cle in mon_dictionnaire:
+    print(cle, mon_dictionnaire[cle])
+
+# Parcours des paires clé-valeur (méthode avec tuple)
+for cle, valeur in mon_dictionnaire.items():
+    print(cle, valeur)
+```
+
+### Concaténation de dictionnairs en Python
+Il est possible de concaténer deux dictionnaires en Python en utilisant l'opérateur `+`. Voici un exemple de concaténation de dictionnaires en Python :
+```python
+# Déclaration des dictionnaires
+mon_dictionnaire_1 = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+mon_dictionnaire_2 = {"ville": "Paris", "pays": "France"}
+
+# Concaténation des dictionnaires
+mon_dictionnaire_3 = mon_dictionnaire_1 + mon_dictionnaire_2
+print(mon_dictionnaire_3)  # Affiche {"nom": "Dupont", "prenom": "Jean", "age": 25, "ville": "Paris", "pays": "France"}
+```
+
+### Fonctions intégrées en Python pour manipuler les dictionnaires
+Il existe plusieurs fonctions intégrées en Python qui permettent de manipuler les dictionnaires, notamment :
+- **`dict(mon_iterable)`** : permet de créer un dictionnaire à partir d'un itérable `mon_iterable` (comme un tuple).
+- **`len(mon_dictionnaire)`** : renvoie le nombre de paires clé-valeur du dictionnaire `mon_dictionnaire`.
+
+### Méthodes courantes de manipulation de dictionnaires en Python
+Python propose de nombreuses méthodes pour manipuler les dictionnaires.
+
+#### `mon_dictionnaire.keys()`
+Renvoie la liste des clés du dictionnaire `mon_dictionnaire` :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Récupération des clés du dictionnaire
+print(mon_dictionnaire.keys())  # Affiche dict_keys(['nom', 'prenom', 'age'])
+```
+
+#### `mon_dictionnaire.values()`
+Renvoie la liste des valeurs du dictionnaire `mon_dictionnaire` :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Récupération des valeurs du dictionnaire
+print(mon_dictionnaire.values())  # Affiche dict_values(['Dupont', 'Jean', 25])
+```
+
+#### `mon_dictionnaire.items()`
+Renvoie la liste des paires clé-valeur du dictionnaire `mon_dictionnaire` :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Récupération des paires clé-valeur du dictionnaire
+print(mon_dictionnaire.items())  # Affiche dict_items([('nom', 'Dupont'), ('prenom', 'Jean'), ('age', 25)])
+```
+
+#### `mon_dictionnaire.get(cle, valeur_par_defaut)`
+Renvoie la valeur associée à la clé `cle` du dictionnaire `mon_dictionnaire`, si la clé n'existe pas, renvoie la valeur `valeur_par_defaut` :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Récupération de la valeur associée à la clé "nom"
+print(mon_dictionnaire.get("nom"))  # Affiche "Dupont"
+
+# Récupération de la valeur associée à la clé "ville"
+print(mon_dictionnaire.get("ville"))  # Affiche None
+
+# Récupération de la valeur associée à la clé "ville" avec une valeur par défaut
+print(mon_dictionnaire.get("ville", "Paris"))  # Affiche "Paris"
+```
+
+#### `mon_dictionnaire.pop(cle)`
+Supprime la paire clé-valeur associée à la clé `cle` du dictionnaire `mon_dictionnaire` :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Suppression de la paire clé-valeur associée à la clé "nom"
+mon_dictionnaire.pop("nom")
+print(mon_dictionnaire)  # Affiche {'prenom': 'Jean', 'age': 25}
+```
+
+#### `mon_dictionnaire.popitem()`
+Supprime une paire clé-valeur au hasard du dictionnaire `mon_dictionnaire` :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Suppression d'une paire clé-valeur au hasard
+mon_dictionnaire.popitem()
+print(mon_dictionnaire)  # Affiche {'nom': 'Dupont', 'prenom': 'Jean'}
+```
+
+#### `mon_dictionnaire.clear()`
+Supprime toutes les paires clé-valeur du dictionnaire `mon_dictionnaire` :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Suppression de toutes les paires clé-valeur
+mon_dictionnaire.clear()
+print(mon_dictionnaire)  # Affiche {}
+```
+
+#### `mon_dictionnaire.update(mon_autre_dictionnaire)`
+Ajoute les paires clé-valeur du dictionnaire `mon_autre_dictionnaire` au dictionnaire `mon_dictionnaire` :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Déclaration d'un autre dictionnaire
+mon_autre_dictionnaire = {"ville": "Paris", "pays": "France"}
+
+# Ajout des paires clé-valeur du dictionnaire "mon_autre_dictionnaire" au dictionnaire "mon_dictionnaire"
+mon_dictionnaire.update(mon_autre_dictionnaire)
+print(mon_dictionnaire)  # Affiche {'nom': 'Dupont', 'prenom': 'Jean', 'age': 25, 'ville': 'Paris', 'pays': 'France'}
+```
+
+#### `mon_dictionnaire.copy()`
+Renvoie une copie du dictionnaire `mon_dictionnaire` :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Copie du dictionnaire
+mon_autre_dictionnaire = mon_dictionnaire.copy()
+print(mon_autre_dictionnaire)  # Affiche {'nom': 'Dupont', 'prenom': 'Jean', 'age': 25}
+```
+
+#### `mon_dictionnaire.setdefault(cle, valeur_par_defaut)`
+Renvoie la valeur associée à la clé `cle` du dictionnaire `mon_dictionnaire`, si la clé n'existe pas, ajoute la paire clé-valeur `cle`-`valeur_par_defaut` au dictionnaire et renvoie la valeur `valeur_par_defaut` :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Récupération de la valeur associée à la clé "nom"
+print(mon_dictionnaire.setdefault("nom"))  # Affiche "Dupont"
+
+# Récupération de la valeur associée à la clé "ville"
+print(mon_dictionnaire.setdefault("ville"))  # Affiche None
+
+# Récupération de la valeur associée à la clé "ville" avec une valeur par défaut
+print(mon_dictionnaire.setdefault("ville", "Paris"))  # Affiche "Paris"
+
+# Affichage du dictionnaire
+print(mon_dictionnaire)  # Affiche {'nom': 'Dupont', 'prenom': 'Jean', 'age': 25, 'ville': 'Paris'}
+```
+
+#### `mon_dictionnaire.fromkeys(liste_cles, valeur_par_defaut)`
+Crée un dictionnaire avec les clés de la liste `liste_cles` et la valeur `valeur_par_defaut` :
+```python
+# Déclaration de la liste
+liste_cles = ["nom", "prenom", "age"]
+
+# Création du dictionnaire
+mon_dictionnaire = dict.fromkeys(liste_cles, "inconnu")
+print(mon_dictionnaire)  # Affiche {'nom': 'inconnu', 'prenom': 'inconnu', 'age': 'inconnu'}
+```
+
+### Utilisation avancée des dictionnaires en Python
+Python permet d'utiliser des dictionnaires de manière avancée. Nous allons voir comment utiliser des dictionnaires comme des objets, comment utiliser des dictionnaires comme des tableaux associatifs, comment utiliser des dictionnaires comme des tableaux à deux dimensions et comment utiliser des dictionnaires comme des tableaux à plusieurs dimensions.
+
+#### Utilisation des dictionnaires comme des objets
+Les dictionnaires peuvent être utilisés comme des objets. Pour cela, il suffit de déclarer un dictionnaire avec des clés qui correspondent aux noms des attributs de l'objet et des valeurs qui correspondent aux valeurs des attributs de l'objet :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"nom": "Dupont", "prenom": "Jean", "age": 25}
+
+# Affichage des attributs de l'objet
+print(mon_dictionnaire["nom"])  # Affiche "Dupont"
+print(mon_dictionnaire["prenom"])  # Affiche "Jean"
+print(mon_dictionnaire["age"])  # Affiche 25
+```
+
+#### Utilisation des dictionnaires comme des tableaux associatifs
+Les dictionnaires peuvent être utilisés comme des tableaux associatifs. Pour cela, il suffit de déclarer un dictionnaire avec des clés qui correspondent aux indices des éléments du tableau associatif et des valeurs qui correspondent aux valeurs des éléments du tableau associatif :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"0": "Dupont", "1": "Jean", "2": 25}
+
+# Affichage des éléments du tableau associatif
+print(mon_dictionnaire["0"])  # Affiche "Dupont"
+print(mon_dictionnaire["1"])  # Affiche "Jean"
+print(mon_dictionnaire["2"])  # Affiche 25
+```
+
+#### Utilisation des dictionnaires comme des tableaux à deux dimensions
+Les dictionnaires peuvent être utilisés comme des tableaux à deux dimensions. Pour cela, il suffit de déclarer un dictionnaire avec des clés qui correspondent aux indices des lignes du tableau à deux dimensions et des valeurs qui correspondent aux lignes du tableau à deux dimensions :
+```python
+# Déclaration du dictionnaire
+mon_dictionnaire = {"0": ["Dupont", "Jean", 25], "1": ["Durand", "Paul", 30]}
+
+# Affichage des éléments du tableau à deux dimensions
+print(mon_dictionnaire["0"][0])  # Affiche "Dupont"
+print(mon_dictionnaire["0"][1])  # Affiche "Jean"
+print(mon_dictionnaire["0"][2])  # Affiche 25
+print(mon_dictionnaire["1"][0])  # Affiche "Durand"
+print(mon_dictionnaire["1"][1])  # Affiche "Paul"
+print(mon_dictionnaire["1"][2])  # Affiche 30
+```
+
+## Partie 5 : Exercices
+
+### Exercice 1 : Tri d'une liste
+> Écrire un programme Python qui demande à l'utilisateur de saisir une liste de nombres entiers. Le programme doit trier cette liste en ordre croissant et afficher le résultat.
+
+### Exercice 2 : Fusion de dictionnaires
+> Écrire une fonction Python qui prend en entrée deux dictionnaires et qui retourne un nouveau dictionnaire contenant les clés et les valeurs de chaque dictionnaire. Si une clé existe dans les deux dictionnaires, la valeur correspondante doit être la somme des valeurs correspondantes.
+
+>Par exemple, si le premier dictionnaire est `{'a': 1, 'b': 2}` et le deuxième dictionnaire est `{'b': 3, 'c': 4}`, le dictionnaire résultant devrait être `{'a': 1, 'b': 5, 'c': 4}`.
+
+### Exercice 3 : Recherche d'éléments dans un ensemble
+> Écrire un programme Python qui définit un ensemble d'éléments (par exemple, des noms de fruits) et demande à l'utilisateur de saisir un élément. Le programme doit vérifier si l'élément est présent dans l'ensemble et afficher un message approprié. Ensuite, le programme doit demander à l'utilisateur s'il souhaite ajouter l'élément à l'ensemble et le faire si tel est le cas. Enfin, le programme doit afficher l'ensemble mis à jour.
