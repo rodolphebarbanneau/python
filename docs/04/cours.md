@@ -28,6 +28,9 @@ i = 0 # Initialisation d'une variable
 while i < 5: # Boucle `while` tant que la condition est vraie
     print(i) # Afficher les nombres de 0 à 4
     i += 1 # Incrémenter la variable
+    
+    if i == 3: # Condition
+        break # Arrêter la boucle
 
 """
 Les conditions :
@@ -114,6 +117,23 @@ prenom Jean
 age 25
 ```
 
+### Sortir d'une boucle `for`
+```python
+# Définir une liste
+fruits = ["pomme", "banane", "orange"]
+
+# Boucle `for` avec une condition de sortie
+for fruit in fruits:
+    if fruit == "banane":
+        break
+    print(fruit)
+```
+
+Résultat :
+```
+pomme
+```
+
 ## Partie 2 : Les boucles `while`
 Les boucles `while` sont utilisées pour exécuter un bloc de code tant qu'une condition est vraie.
 
@@ -163,6 +183,28 @@ Entrez une valeur (q pour quitter) : 2
 Vous avez entré la valeur 2
 Entrez une valeur (q pour quitter) : q
 Vous avez entré la valeur q
+```
+
+### Boucle `while` avec une condition de sortie et une condition de saut
+```python
+# Initialisation d'une variable
+valeur = ""
+
+# Boucle `while` avec une condition de sortie et une condition de saut
+while valeur != "q":
+    valeur = input("Entrez une valeur (q pour quitter) : ")
+    if valeur == "q":
+        break
+    print("Vous avez entré la valeur", valeur)
+```
+
+Résultat :
+```
+Entrez une valeur (q pour quitter) : 1
+Vous avez entré la valeur 1
+Entrez une valeur (q pour quitter) : 2
+Vous avez entré la valeur 2
+Entrez une valeur (q pour quitter) : q
 ```
 
 ## Partie 3 : Les structures conditionnelles
