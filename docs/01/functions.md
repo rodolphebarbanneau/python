@@ -3,6 +3,7 @@ layout: default
 title: Fonctions
 parent: Concepts de base
 nav_order: 4
+permalink: /docs/concepts/functions
 ---
 
 # Les fonctions

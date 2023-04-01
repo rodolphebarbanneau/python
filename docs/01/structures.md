@@ -3,6 +3,7 @@ layout: default
 title: Structures de contrôle de flux
 parent: Concepts de base
 nav_order: 3
+permalink: /docs/concepts/stuctures
 ---
 
 # Les structures de contrôle de flux

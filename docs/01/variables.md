@@ -3,7 +3,7 @@ layout: default
 title: Variables
 parent: Concepts de base
 nav_order: 1
-permalink: /variables
+permalink: /docs/concepts/variables
 ---
 
 # Les variables

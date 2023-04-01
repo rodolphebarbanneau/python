@@ -3,6 +3,7 @@ layout: default
 title: Opérateurs
 parent: Concepts de base
 nav_order: 2
+permalink: /docs/concepts/operators
 ---
 
 # Les opérateurs

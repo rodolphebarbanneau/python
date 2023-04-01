@@ -3,6 +3,7 @@ layout: default
 title: Exemples pratiques
 parent: Concepts de base
 nav_order: 5
+permalink: /docs/concepts/examples
 ---
 
 # Exemples pratiques
