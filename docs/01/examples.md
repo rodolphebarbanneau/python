@@ -5,7 +5,7 @@ parent: Concepts de base de la programmation
 nav_order: 5
 ---
 
-## Partie 5 : Exemples pratiques
+# Exemples pratiques
 
 Écriture d'un programme Python simple qui demande à l'utilisateur son nom et affiche un message de bienvenue :
 ```python
