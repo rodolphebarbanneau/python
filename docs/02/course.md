@@ -1,4 +1,4 @@
-# Sprint 2 : Variables de base, chaînes de caractères et opérateurs
+# Variables de base, chaînes de caractères et opérateurs
 
 ![Let's get this started!](../assets/lets_get_this_started.png)
 

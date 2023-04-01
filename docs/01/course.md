@@ -1,4 +1,4 @@
-# Sprint 1 : Concepts de base de la programmation
+# Concepts de base de la programmation
 
 ![Guy learning Python...](../assets/python_natives.png)
 

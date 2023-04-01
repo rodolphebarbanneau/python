@@ -1,4 +1,4 @@
-# Introduction à Python
+# Introduction au Python
 
 ![Listen here, n00b...](./assets/listen_here_noob.png)
 

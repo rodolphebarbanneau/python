@@ -1,4 +1,4 @@
-# Sprint 3 : Variables avancées
+# Variables avancées
 
 ![For loop sucks!](../assets/for_loop_sucks.png)
 

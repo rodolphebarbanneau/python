@@ -1,4 +1,4 @@
-# Sprint 4 : Structures de contrôle de flux
+# Structures de contrôle de flux
 
 ![If vs if else](../assets/if_vs_if_else.png)
 
