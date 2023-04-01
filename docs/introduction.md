@@ -74,6 +74,8 @@ x = (1 + 2 + 3 +
 - Créez un nouveau fichier Python (.py) dans ce dossier
 - Ajoutez votre code Python dans ce fichier
 
+![VS Code](./assets/vscode.png)
+
 ## Partie 3 : Ressources supplémentaires
 
 Sites web utiles pour apprendre Python :
