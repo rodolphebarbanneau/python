@@ -1,3 +1,9 @@
+---
+layout: default
+title: Variables de base, chaînes de caractères et opérateurs
+nav_order: 4
+---
+
 # Variables de base, chaînes de caractères et opérateurs
 
 ![Let's get this started!](../assets/lets_get_this_started.png)

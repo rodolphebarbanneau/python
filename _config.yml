@@ -1,10 +1,19 @@
-title: Python
+# See: https://jekyllrb.com/docs/configuration/
+title: Python w/ Lucas
 description: Apprendre le Python avec Lucas !
 url: https://rodolphebarbanneau.github.io/python
 
-# theme: just-the-docs # use localyy
-remote_theme: pmarsceill/just-the-docs # use on github
+# Build settings
 color_scheme: dark
+remote_theme: pmarsceill/just-the-docs # use on github
+# theme: just-the-docs # use localyy
 
+# Auxiliary links
 aux_links:
-  Download: https://www.python.org/
+  Python w/ Lucas on GitHub: https://github.com/rodolphebarbanneau/python
+
+# External navigation links
+nav_external_links:
+  - title: Python
+    url: https://www.python.org/
+    hide_icon: false

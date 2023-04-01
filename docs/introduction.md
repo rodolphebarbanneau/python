@@ -1,3 +1,9 @@
+---
+layout: default
+title: Introduction au Python
+nav_order: 2
+---
+
 # Introduction au Python
 
 ![Listen here, n00b...](./assets/listen_here_noob.png)

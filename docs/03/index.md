@@ -1,3 +1,9 @@
+---
+layout: default
+title: Variables avancées
+nav_order: 5
+---
+
 # Variables avancées
 
 ![For loop sucks!](../assets/for_loop_sucks.png)

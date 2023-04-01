@@ -1,3 +1,9 @@
+---
+layout: default
+title: Structures de contrôle de flux
+nav_order: 6
+---
+
 # Structures de contrôle de flux
 
 ![If vs if else](../assets/if_vs_if_else.png)

@@ -1,6 +1,9 @@
 ---
 title: Home
-layout: home
+layout: default
+nav_order: 1
+description: "Apprendre le Python avec Lucas !"
+permalink: /
 ---
 
 # Apprendre le [Python] avec Lucas ! [^1]
