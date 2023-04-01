@@ -10,7 +10,9 @@ remote_theme: pmarsceill/just-the-docs # use on github
 
 # Auxiliary links
 aux_links:
-  Python w/ Lucas on GitHub: https://github.com/rodolphebarbanneau/python
+  - title: GitHub
+    url: https://github.com/rodolphebarbanneau/python
+    hide_icon: false
 
 # External navigation links
 nav_external_links:

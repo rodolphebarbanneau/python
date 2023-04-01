@@ -2,13 +2,24 @@
 layout: default
 title: Introduction au Python
 nav_order: 2
+has_children: false
+permalink: /docs/introduction
 ---
 
 # Introduction au Python
+{: .no_toc }
 
 ![Listen here, n00b...](./assets/listen_here_noob.png)
 
-## Partie 1 : Présentation de Python
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Présentation de Python
 
 ### Qu'est-ce que Python ?
 Python est un langage de programmation interprété, orienté objet et facile à lire et écrire. Il est souvent utilisé pour le développement de logiciels, de sites web, d'outils d'analyse de données et d'intelligence artificielle.
@@ -61,7 +72,7 @@ x = (1 + 2 + 3 +
      7 + 8 + 9)
 ```
 
-## Partie 2 : Installation de Python et VS Code
+## Installation de Python et VS Code
 
 ### Installation de Python sur Windows
 - Allez sur le site officiel de Python : [https://www.python.org/downloads](https://www.python.org/downloads)
@@ -82,7 +93,7 @@ x = (1 + 2 + 3 +
 
 ![VS Code](./assets/vscode.png)
 
-## Partie 3 : Ressources supplémentaires
+## Ressources supplémentaires
 
 Sites web utiles pour apprendre Python :
 - [https://www.python.org](https://www.python.org)
