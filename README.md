@@ -31,6 +31,7 @@
 - Comprendre ce qu'est une fonction et comment créer des fonctions en Python
 - Utilisation des méthodes natives
 - Apprendre à utiliser des modules pour organiser du code et pour réutiliser du code existant
+- Utiliser `__main__` pour exécuter du code uniquement lorsqu'un fichier est exécuté directement
 
 ## [Sprint 6 : Fichiers](docs/06/cours.md)
 - Apprendre à lire et écrire des fichiers en Python
