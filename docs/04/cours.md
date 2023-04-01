@@ -257,4 +257,9 @@ if age >= 18 and age < 65:
 >Ecrire un programme Python qui demande à l'utilisateur de saisir une chaîne de caractères. Le programme doit vérifier si la chaîne est un palindrome (c'est-à-dire si elle peut être lue de la même façon de gauche à droite et de droite à gauche). Si la chaîne est un palindrome, le programme doit afficher un message de confirmation. Sinon, le programme doit afficher un message d'erreur.
 
 ### Exercice 3 : Jeu du nombre mystère
->Ecrire un programme Python qui génère un nombre aléatoire entre 1 et 100. Ensuite, le programme demande à l'utilisateur de deviner le nombre. Si l'utilisateur devine le nombre correctement, le programme affiche un message de félicitations. Sinon, le programme donne des indices pour aider l'utilisateur à deviner le nombre (plus grand ou plus petit que le nombre choisi). Le programme doit continuer à demander des réponses à l'utilisateur jusqu'à ce qu'il devine correctement. Le nombre de tentatives doit être affiché à la fin du jeu.
+>Ecrire un programme Python qui génère un nombre aléatoire entre 1 et 100.
+```python
+import random
+nombre = random.randint(1, 100)
+```
+>Ensuite, le programme demande à l'utilisateur de deviner le nombre. Si l'utilisateur devine le nombre correctement, le programme affiche un message de félicitations. Sinon, le programme donne des indices pour aider l'utilisateur à deviner le nombre (plus grand ou plus petit que le nombre choisi). Le programme doit continuer à demander des réponses à l'utilisateur jusqu'à ce qu'il devine correctement. Le nombre de tentatives doit être affiché à la fin du jeu.
