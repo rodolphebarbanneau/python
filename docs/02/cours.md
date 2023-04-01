@@ -21,7 +21,7 @@ message2 = "Comment ça va?"
 prenom = 'Jean'
 nom = 'Dupont'
 nom_complet = prenom + ' ' + nom
-message = 'J\'ai {} ans.'.format(age)
+message = 'J\'ai {} ans.'.format(age) # \ permet d'échapper le caractère '
 message_f = f'J\'ai {age} ans.'
 
 # Modification de chaînes de caractères
