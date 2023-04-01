@@ -43,6 +43,16 @@ def ma_fonction():
     # L'indentation est importante pour définir les blocs de code
     # 4 espaces ou 1 tabulation sont généralement utilisés pour l'indentation
     print("Ceci est une fonction")
+
+# Multiligne avec antislash
+x = 1 + 2 + 3 + \
+    4 + 5 + 6 + \
+    7 + 8 + 9
+
+# Multiligne avec parenthèses
+x = (1 + 2 + 3 +
+     4 + 5 + 6 +
+     7 + 8 + 9)
 ```
 
 ## Partie 2 : Installation de Python et VS Code
