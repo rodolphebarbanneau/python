@@ -17,8 +17,8 @@ permalink: /docs/structures/cheatsheet
 
 ---
 
-## Les boucles `for`
-Utilisation pour répéter un bloc d'instructions un nombre défini de fois
+## Boucles `for`
+Utilisation pour répéter un bloc d'instructions un nombre défini de fois.
 ```python
 for i in range(5): # Boucle `for` sur une plage de nombres
     print(i) # Afficher les nombres de 0 à 4
@@ -33,8 +33,8 @@ for i in range(10, 5, -1): # Boucle `for` sur une plage de nombres
     print(i) # Afficher les nombres de 10 à 6
 ```
 
-## Les boucles `while`
-Utilisation pour répéter un bloc d'instructions tant qu'une condition est vraie
+## Boucles `while`
+Utilisation pour répéter un bloc d'instructions tant qu'une condition est vraie.
 ```python
 i = 0 # Initialisation d'une variable
 while i < 5: # Boucle `while` tant que la condition est vraie
@@ -45,8 +45,8 @@ while i < 5: # Boucle `while` tant que la condition est vraie
         break # Arrêter la boucle
 ```
 
-## Les conditions
-Utilisation pour exécuter un bloc d'instructions si une condition est vraie
+## Conditions
+Utilisation pour exécuter un bloc d'instructions si une condition est vraie.
 ```python
 if 1 < 2: # Condition
     print("1 est inférieur à 2") # Afficher le message
