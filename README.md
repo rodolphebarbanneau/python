@@ -1,4 +1,4 @@
-# Apprendre le Python avec Lucas
+# Apprendre le Python avec Lucas !
 
 ## [Introduction à Python](docs/introduction.md)
 - Présentation de Python
