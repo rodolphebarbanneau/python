@@ -1,6 +1,6 @@
-# Sprint 3 : Structures de contrôle de flux
+# Sprint 4 : Structures de contrôle de flux
 
-![For loop sucks!](../assets/for_loop_sucks.png)
+![If vs if else](../assets/if_vs_if_else.png)
 
 ## Cheatsheet
 ```python
