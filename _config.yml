@@ -1,10 +1,10 @@
 title: Python
 description: Apprendre le Python avec Lucas !
+url: https://rodolphebarbanneau.github.io/python
 
 # theme: just-the-docs # use localyy
 remote_theme: pmarsceill/just-the-docs # use on github
-
-url: https://rodolphebarbanneau.github.io/python
+color_scheme: dark
 
 aux_links:
   Download: https://www.python.org/
