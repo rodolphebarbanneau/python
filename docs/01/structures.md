@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Les structures de contrôle de flux
-parent: Concepts de base de la programmation
+title: Structures de contrôle de flux
+parent: Concepts de base
 nav_order: 3
 ---
 

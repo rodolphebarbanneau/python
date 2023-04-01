@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Les opérateurs
-parent: Concepts de base de la programmation
+title: Opérateurs
+parent: Concepts de base
 nav_order: 2
 ---
 

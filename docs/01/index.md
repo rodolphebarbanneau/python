@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Concepts de base de la programmation
+title: Concepts de base
 nav_order: 3
 has_children: true
 permalink: /docs/concepts

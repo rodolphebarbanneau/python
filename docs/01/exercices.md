@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Exercices
-parent: Concepts de base de la programmation
+parent: Concepts de base
 nav_order: 6
 ---
 

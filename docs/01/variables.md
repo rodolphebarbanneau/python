@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Les variables
-parent: Concepts de base de la programmation
+title: Variables
+parent: Concepts de base
 nav_order: 1
+permalink: /variables
 ---
 
 # Les variables

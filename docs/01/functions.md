@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Les fonctions
-parent: Concepts de base de la programmation
+title: Fonctions
+parent: Concepts de base
 nav_order: 4
 ---
 
