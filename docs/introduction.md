@@ -132,12 +132,12 @@ Cloner un dépôt GitHub est une opération qui permet de télécharger le code 
         - Choisissez l'emplacement où vous souhaitez cloner le dépôt
         - Cliquez sur le bouton "Clone"
 
-### Syncroniser un dépôt GitHub avec VS Code
+### Synchroniser un dépôt GitHub avec VS Code
 Vous pouvez utiliser VS Code pour modifier le code source d'un dépôt GitHub. Pour ce faire, vous devez cloner le dépôt GitHub sur votre ordinateur et ouvrir le dossier du dépôt dans VS Code.
 - Cloner le dépôt GitHub sur votre ordinateur
 - Ouvrez le dossier du dépôt dans VS Code
 - Modifiez le code source du dépôt
-- Synchronisez le dépôt avec GitHub en utilisant l'options "Source Control" de VS Code
+- Synchronisez le dépôt avec GitHub en utilisant l'options "Source Control" de VS Code et en vous connectant à votre compte GitHub
 
 ### Commiter et pusher des modifications sur GitHub
 Commiter et pusher des modifications sur GitHub est une opération qui permet de sauvegarder vos modifications sur le dépôt GitHub.
@@ -149,7 +149,6 @@ Commiter et pusher des modifications sur GitHub est une opération qui permet de
 - Cliquez sur le bouton "Push" pour pusher les modifications sur GitHub
 
 ## Ressources supplémentaires
-
 Sites web utiles pour apprendre Python :
 - [https://www.python.org](https://www.python.org)
 - [https://docs.python.org/3/tutorial](https://docs.python.org/3/tutorial)
