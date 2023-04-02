@@ -3,7 +3,7 @@ layout: default
 title: Types de données de base
 parent: Variables & Opérateurs
 nav_order: 3
-permalink: /docs/variables-basic/data_types
+permalink: /docs/variables-basic/data-types
 ---
 
 # Les types de données de base

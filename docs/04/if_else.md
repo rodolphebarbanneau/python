@@ -3,7 +3,7 @@ layout: default
 title: Structures conditionnelles
 parent: Structures de contrôle de flux
 nav_order: 4
-permalink: /docs/structures/ifelse
+permalink: /docs/structures/if-else
 ---
 
 # Les structures conditionnelles

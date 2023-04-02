@@ -37,6 +37,7 @@ permalink: /
 - Utilisation des structures de contrôle de flux
 - Comprendre les boucles `for` et `while`
 - Comprendre les structures conditionnelles `if`, `elif` et `else`
+- Comprendre les instructions `try` et `except`
 
 ## [Sprint 5 : Fonctions et modules](./docs/05/index.md)
 - Comprendre ce qu'est une fonction et comment créer des fonctions en Python
