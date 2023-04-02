@@ -126,6 +126,9 @@ nav_external_links:
     - title: VS Code
       url: https://code.visualstudio.com/download
       hide_icon: false
+    - title: GitHub Desktop
+      url: https://desktop.github.com/
+      hide_icon: false
 
 # Footer content
 # appears at the bottom of every page's main content
