@@ -8,7 +8,8 @@ permalink: /docs/concepts/stuctures
 
 # Les structures de contrôle de flux
 Les structures de contrôle de flux sont utilisées pour décider de l'exécution ou non d'une partie de votre code. Les structures de contrôle de flux courantes en Python sont :
-- Les instructions `if`/`elif`/`else` :
+
+## Les instructions `if`/`elif`/`else` :
 ```python
 if condition1:
     # Code exécuté si la condition1 est vraie
@@ -20,20 +21,22 @@ else:
     # Code exécuté si les conditions sont fausses
     print("Les conditions sont fausses")
 ```
-- Les boucles `for` :
+
+## Les boucles `for` :
 ```python
 for element in sequence:
     # Code exécuté pour chaque élément de la séquence
     print(element)
 ```
-- Les boucles `while` :
+
+## Les boucles `while` :
 ```python
 while condition:
     # Code exécuté tant que la condition est vraie
     print("La condition est vraie")
 ```
 
-- Les instructions `try`/`except` :
+## Les instructions `try`/`except` :
 ```python
 try:
     # Code exécuté
