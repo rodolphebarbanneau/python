@@ -39,33 +39,41 @@ permalink: /
 - Comprendre les structures conditionnelles `if`, `elif` et `else`
 - Comprendre les instructions `try` et `except`
 
-## [Sprint 5 : Fonctions et modules](./docs/05/index.md)
+## [Sprint 5 : Fonctions](./docs/05/index.md)
 - Comprendre ce qu'est une fonction et comment créer des fonctions en Python
+- Utilisation des arguments et des paramètres d'une fonction
+- Utilisation des fonctions anonymes ou lambda
 - Utilisation des méthodes natives
+
+## [Sprint 6 : Modules et environnement](./docs/06/index.md)
+- Utilisation des variables locales, globales et spéciales
+- Utilisation de `__main__` pour exécuter du code uniquement lorsqu'un fichier est exécuté directement
 - Apprendre à utiliser des modules pour organiser du code et pour réutiliser du code existant
-- Utiliser `__main__` pour exécuter du code uniquement lorsqu'un fichier est exécuté directement
+- Utilisation de `pip` pour installer des modules externes
+- Comprendre la gestion de l'environnement de travail et ses variables d'environnement
+- Utilisation de l'environnement virtuel avec `poetry` pour gérer les dépendances de votre projet
 
-## [Sprint 6 : Fichiers](./docs/06/index.md)
-- Apprendre à lire et écrire des fichiers en Python
-- Apprendre à utiliser des fichiers CSV et JSON en Python
+## [Sprint 7 : Fichiers](./docs/07/index.md)
+- Apprendre à lire et écrire des fichiers
+- Apprendre à utiliser des fichiers CSV et JSON
 
-## [Sprint 7 : Programmation orientée objet](./docs/07/index.md)
+## [Sprint 8 : Programmation orientée objet](./docs/08/index.md)
 - Comprendre les concepts de base de la programmation orientée objet (POO)
-- Apprendre à créer des classes et des objets en Python
+- Apprendre à créer des classes et des objets
 
-## [Sprint 8 : Bibliothèques et modules Python courants](./docs/08/index.md)
+## [Sprint 9 : Bibliothèques et modules Python courants](./docs/09/index.md)
 - Présentation de bibliothèques couramment utilisées en Python, comme Numpy, Pandas et Matplotlib
-- Comprendre comment utiliser ces bibliothèques pour effectuer des opérations courantes en Python
+- Comprendre comment utiliser ces bibliothèques pour effectuer des opérations courantes
 
-## [Sprint 9 : Interface utilisateur graphique (GUI)](./docs/09/index.md)
-- Introduction aux interfaces utilisateur graphiques (GUI) en Python
+## [Sprint 10 : Interface utilisateur graphique (GUI)](./docs/10/index.md)
+- Introduction aux interfaces utilisateur graphiques (GUI)
 - Utilisation du module tkinter pour créer une interface utilisateur graphique simple
 
-## [Sprint 10 : Base de données](./docs/10/index.md)
+## [Sprint 11 : Base de données](./docs/11/index.md)
 - Comprendre les bases de données et les concepts SQL
 - Utilisation du module sqlite pour stocker des données dans une base de données SQLite
 
-## [Sprint 11 : Application Desktop](./docs/11/index.md)
+## [Sprint 12 : Application Desktop](./docs/12/index.md)
 - Utilisation des connaissances acquises au cours des neuf premiers sprints pour développer une petite application desktop
 - Utilisation de tkinter pour créer une interface utilisateur graphique
 - Stockage des données dans une base de données SQLite
