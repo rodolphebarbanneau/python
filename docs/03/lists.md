@@ -265,9 +265,10 @@ Il est possible de créer une nouvelle liste à partir d'une liste existante en 
 ma_liste = [1, 2, 3, 4, 5]
 
 # Création d'une nouvelle liste à partir de la liste originale
-ma_liste_copie = ma_liste[0:5:1]
-print(ma_liste_copie)  # Affiche [1, 2, 3, 4, 5]
+ma_liste_copie = ma_liste[1:4:1]
+print(ma_liste_copie)  # Affiche [2, 3, 4]
 ```
+
 Le slicing permet de créer une nouvelle liste en sélectionnant une partie de la liste originale. Dans cet exemple, on sélectionne tous les éléments de la liste originale en commençant à l'index 0 et en allant jusqu'à l'index 5 (non inclus) avec un pas de 1. Si vous souhaitez sélectionner tous les éléments de la liste, vous pouvez omettre les paramètres `start` et `stop` :
 ```python
 # Déclaration de la liste
@@ -277,6 +278,7 @@ ma_liste = [1, 2, 3, 4, 5]
 ma_liste_copie = ma_liste[:]
 print(ma_liste_copie)  # Affiche [1, 2, 3, 4, 5]
 ```
+
 Le slicing permet également de sélectionner des éléments en partant de la fin de la liste en utilisant des index négatifs. Par exemple, pour sélectionner les 3 derniers éléments de la liste, vous pouvez utiliser le slicing suivant :
 ```python
 # Déclaration de la liste
@@ -286,6 +288,17 @@ ma_liste = [1, 2, 3, 4, 5]
 ma_liste_copie = ma_liste[-3:]
 print(ma_liste_copie)  # Affiche [3, 4, 5]
 ```
+
+Le premier élément du slicing peut être omis pour sélectionner tous les éléments jusqu'à l'index `stop` :
+```python
+# Déclaration de la liste
+ma_liste = [1, 2, 3, 4, 5]
+
+# Création d'une nouvelle liste à partir de la liste originale
+ma_liste_copie = ma_liste[:4]
+print(ma_liste_copie)  # Affiche [1, 2, 3, 4]
+```
+
 Le slicing permet également de sélectionner des éléments avec un pas différent de 1. Par exemple, pour sélectionner les éléments de la liste avec un pas de 2, vous pouvez utiliser le slicing suivant :
 ```python
 # Déclaration de la liste
