@@ -81,6 +81,39 @@ print(max(ma_liste))  # Affiche 5
 print(sorted(ma_liste))  # Affiche [1, 2, 3, 4, 5]
 ```
 
+## Copie d'une liste
+Il est possible de copier une liste en Python en utilisant l'opérateur `=`. Cependant, il faut faire attention car la copie d'un objet en Python est une copie par référence. Cela signifie que si vous modifiez un élément de la liste copiée, vous modifiez également l'élément correspondant dans la liste originale.
+```python
+# Déclaration de la liste
+ma_liste = [1, 2, 3, 4, 5]
+
+# Copie de la liste
+ma_liste_2 = ma_liste
+
+# Modification d'un élément de la liste
+ma_liste_2[1] = 6
+print(ma_liste)  # Affiche [1, 6, 3, 4, 5]
+```
+
+Dans cet exemple, nous avons déclaré une liste `ma_liste` et nous avons copié cette liste dans une nouvelle liste `ma_liste_2`. Nous avons ensuite modifié le deuxième élément de la liste `ma_liste_2` et nous avons constaté que le deuxième élément de la liste `ma_liste` a également été modifié.
+
+Pour copier une liste en Python sans modifier la liste originale (deep copy), plusieurs solutions existent. La plus simple est d'utiliser la méthode `list()` :
+```python
+# Déclaration de la liste
+ma_liste = [1, 2, 3, 4, 5]
+
+# Deep copie de la liste
+ma_liste_2 = list(ma_liste) # Python 2 
+ma_liste_2 = ma_liste[:] # Python 2 : slicing
+ma_liste_2 = ma_liste.copy() # Python 3.3+
+ma_liste_2 = [x for x in ma_liste] # Python 3.5+ : list comprehension
+ma_liste_2 = [*ma_liste] # Python 3.5+ : unpacking
+
+# Modification d'un élément de la liste
+ma_liste_2[1] = 6
+print(ma_liste)  # Affiche [1, 2, 3, 4, 5]
+```
+
 ## Modification d'une liste
 Il est possible de modifier les éléments d'une liste en Python. Pour cela, il suffit d'utiliser l'opérateur d'affectation `=` pour assigner une nouvelle valeur à un élément particulier de la liste.
 
@@ -328,4 +361,45 @@ ma_liste = [1, 2, 3, 4, 5]
 # Création d'une nouvelle liste à partir de la liste originale
 ma_liste_copie = [element for element in ma_liste if element % 2 == 0]
 print(ma_liste_copie)  # Affiche [2, 4]
+```
+
+### Unpacking
+Il est possible de décomposer une liste en utilisant l'unpacking. L'unpacking permet de décomposer une liste en plusieurs variables. Voici un exemple d'unpacking en Python :
+```python
+# Déclaration de la liste
+ma_liste = [1, 2, 3, 4, 5]
+
+# Décomposition de la liste
+a, b, c, d, e = ma_liste
+print(a)  # Affiche 1
+print(b)  # Affiche 2
+print(c)  # Affiche 3
+print(d)  # Affiche 4
+print(e)  # Affiche 5
+```
+
+L'unpacking permet de décomposer une liste en plusieurs variables. Dans cet exemple, on décompose la liste en 5 variables. Il est important de noter que le nombre de variables doit correspondre au nombre d'éléments de la liste. Si vous souhaitez décomposer une liste en moins de variables, vous pouvez utiliser l'opérateur `*` :
+```python
+# Déclaration de la liste
+ma_liste = [1, 2, 3, 4, 5]
+
+# Décomposition de la liste
+a, b, *c = ma_liste
+print(a)  # Affiche 1
+print(b)  # Affiche 2
+print(c)  # Affiche [3, 4, 5]
+
+# Décomposition de la liste
+*a, b, c = ma_liste
+print(a)  # Affiche [1, 2, 3]
+print(b)  # Affiche 4
+print(c)  # Affiche 5
+
+# Décomposition de la liste
+*a, = ma_liste # Notez la virgule après la variable `a` afin d'indiquer un tuple
+print(a)  # Affiche [1, 2, 3, 4, 5]
+
+# Décomposition de la liste
+ma_liste2 = [*ma_liste]
+print(ma_liste2)  # Affiche [1, 2, 3, 4, 5]
 ```

@@ -8,7 +8,7 @@ permalink: /docs/variables-advanced/sets
 
 # Les ensembles
 {: .no_toc }
-En Python, les ensembles (ou sets) sont des collections de données non ordonnées et non indexées. Les ensembles sont représentés par des accolades ({}) et peuvent contenir différents types de données, comme des entiers, des chaînes de caractères ou encore des tuples.
+En Python, les ensembles (ou sets) sont des collections de données non ordonnées et non indexées. Les ensembles sont représentés par des accolades (`{}`) et peuvent contenir différents types de données, comme des entiers, des chaînes de caractères ou encore des tuples.
 
 Les ensembles ont plusieurs avantages :
 - Ils permettent de stocker une collection d'éléments uniques. Cela signifie qu'il n'y aura pas de doublons dans un ensemble.
