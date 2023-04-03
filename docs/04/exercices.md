@@ -20,6 +20,7 @@ permalink: /docs/structures/exercices
 
 ## Exercice 3 : Jeu du nombre mystère
 > Ecrire un programme Python qui génère un nombre aléatoire entre 1 et 100.
+
 ```python
 import random
 nombre = random.randint(1, 100)

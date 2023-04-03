@@ -30,6 +30,7 @@ permalink: /docs/functions/exercices
 > - Une liste de dictionnaires représentant les promotions.
 
 > La fonction doit retourner le prix total de la commande, en tenant compte des articles commandés et des promotions applicables. Voici un exemple d'utilisation de la fonction :
+
 ```python	
 articles = [
     {'nom': 'chaussures', 'quantite': 2},
