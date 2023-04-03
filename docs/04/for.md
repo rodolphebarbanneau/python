@@ -2,7 +2,7 @@
 layout: default
 title: Boucles `for`
 parent: Structures de contrôle de flux
-nav_order: 2
+nav_order: 1
 permalink: /docs/structures/for
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: Variables
 parent: Variables et opérateurs
-nav_order: 2
+nav_order: 1
 permalink: /docs/variables-basic/variables
 ---
 

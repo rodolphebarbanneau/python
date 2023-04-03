@@ -2,7 +2,7 @@
 layout: default
 title: Exercices
 parent: Structures de contrôle de flux
-nav_order: 6
+nav_order: 5
 permalink: /docs/structures/exercices
 ---
 

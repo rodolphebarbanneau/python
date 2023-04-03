@@ -11,12 +11,6 @@ permalink: /docs/variables-basic
 
 ![Let's get this started!](../assets/lets-get-this-started.png)
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ## Cheatsheet
 {: .no_toc }
 

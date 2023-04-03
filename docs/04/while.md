@@ -2,7 +2,7 @@
 layout: default
 title: Boucles `while`
 parent: Structures de contrôle de flux
-nav_order: 3
+nav_order: 2
 permalink: /docs/structures/while
 ---
 

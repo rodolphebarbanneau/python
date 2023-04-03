@@ -2,7 +2,7 @@
 layout: default
 title: Fonctions récursives
 parent: Fonctions
-nav_order: 4
+nav_order: 3
 permalink: /docs/functions/recursion
 ---
 

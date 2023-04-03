@@ -2,7 +2,7 @@
 layout: default
 title: Structures conditionnelles
 parent: Structures de contrôle de flux
-nav_order: 4
+nav_order: 3
 permalink: /docs/structures/if-else
 ---
 

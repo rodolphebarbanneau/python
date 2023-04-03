@@ -2,7 +2,7 @@
 layout: default
 title: Tuples `tuple`
 parent: Variables avancées
-nav_order: 3
+nav_order: 2
 permalink: /docs/variables-advanced/tuples
 ---
 

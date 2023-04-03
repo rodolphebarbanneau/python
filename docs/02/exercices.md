@@ -2,7 +2,7 @@
 layout: default
 title: Exercices
 parent: Variables et opérateurs
-nav_order: 6
+nav_order: 5
 permalink: /docs/variables-basic/exercices
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: Listes `list`
 parent: Variables avancées
-nav_order: 2
+nav_order: 1
 permalink: /docs/variables-advanced/lists
 ---
 

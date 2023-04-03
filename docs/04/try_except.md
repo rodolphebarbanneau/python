@@ -2,7 +2,7 @@
 layout: default
 title: Gestion des erreurs
 parent: Structures de contrôle de flux
-nav_order: 5
+nav_order: 4
 permalink: /docs/structures/try-except
 ---
 

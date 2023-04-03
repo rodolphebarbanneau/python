@@ -2,7 +2,7 @@
 layout: default
 title: Ensembles `set`
 parent: Variables avancées
-nav_order: 4
+nav_order: 3
 permalink: /docs/variables-advanced/sets
 ---
 

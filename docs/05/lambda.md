@@ -2,7 +2,7 @@
 layout: default
 title: Fonctions lambda
 parent: Fonctions
-nav_order: 6
+nav_order: 5
 permalink: /docs/functions/lambda
 ---
 

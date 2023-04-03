@@ -2,7 +2,7 @@
 layout: default
 title: Exercices
 parent: Fonctions
-nav_order: 8
+nav_order: 7
 permalink: /docs/functions/exercices
 ---
 
