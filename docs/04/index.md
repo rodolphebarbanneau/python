@@ -9,4 +9,4 @@ permalink: /docs/structures
 # Structures de contrôle de flux
 {: .no_toc }
 
-![If vs if else](../assets/if_vs_if_else.png)
+![If vs if else](../assets/if-vs-if-else.png)

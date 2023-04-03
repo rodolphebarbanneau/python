@@ -9,4 +9,4 @@ permalink: /docs/functions
 # Fonctions
 {: .no_toc }
 
-![If vs if else](../assets/function_to_function.png)
+![Pass function to funtion](../assets/function-to-function.png)

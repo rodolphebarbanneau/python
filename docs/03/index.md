@@ -9,4 +9,4 @@ permalink: /docs/variables-advanced
 # Variables avancées
 {: .no_toc }
 
-![For loop sucks!](../assets/for_loop_sucks.png)
+![For loop sucks!](../assets/for-loop-sucks.png)

@@ -22,7 +22,7 @@ Le langage Python possède des fonctions natives qui sont définies directement 
 Les fonctions natives de conversion permettent de convertir une valeur d'un type en un autre type.
 
 | Fonction | Description | Exemple |
-|----------|-------------|---------|
+| -------- | ----------- | ------- |
 | `int(x, base)` | Convertit une valeur en entier | `int("5")` retourne `5` |
 | `float(x)` | Convertit une valeur en nombre à virgule flottante | `float("5.5")` retourne `5.5` |
 | `bytes(x, encoding, errors)` | Convertit une valeur en octets | `bytes("5", "utf-8")` retourne `b'5'` |
@@ -37,7 +37,7 @@ Les fonctions natives de conversion permettent de convertir une valeur d'un type
 Les fonctions natives de manipulation de chaînes de caractères permettent de manipuler des chaînes de caractères.
 
 | Fonction | Description | Exemple |
-|----------|-------------|---------|
+| -------- | ----------- | ------- |
 | `len(iterable)` | Retourne la longueur d'un itérable | `len("Hello")` retourne `5` |
 | `chr(i)` | Retourne le caractère correspondant à un code ASCII | `chr(65)` retourne `'A'` |
 | `ord(c)` | Retourne le code ASCII correspondant à un caractère | `ord('A')` retourne `65` |
@@ -49,7 +49,7 @@ Les fonctions natives de manipulation de chaînes de caractères permettent de m
 Les fonctions natives de manipulation de listes permettent de manipuler des listes.
 
 | Fonction | Description | Exemple |
-|----------|-------------|---------|
+| -------- | ----------- | ------- |
 | `len(iterable)` | Retourne la longueur d'un itérable | `len([1, 2, 3])` retourne `3` |
 | `min(iterable, *iterables, key, default)` | Retourne la valeur minimale d'un itérable | `min([1, 2, 3])` retourne `1` |
 | `max(iterable, *iterables, key, default)` | Retourne la valeur maximale d'un itérable | `max([1, 2, 3])` retourne `3` |

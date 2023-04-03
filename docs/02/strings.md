@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chaînes de caractères
-parent: Variables & Opérateurs
+parent: Variables et opérateurs
 nav_order: 4
 permalink: /docs/variables-basic/strings
 ---

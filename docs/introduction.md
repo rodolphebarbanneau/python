@@ -9,7 +9,7 @@ permalink: /docs/introduction
 # Introduction au Python
 {: .no_toc }
 
-![Listen here, n00b...](./assets/listen_here_noob.png)
+![Listen here, n00b...](./assets/listen-here-noob.png)
 
 ## Table of contents
 {: .no_toc .text-delta }

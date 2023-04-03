@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cheatsheet
-parent: Variables & Opérateurs
+parent: Variables et opérateurs
 nav_order: 1
 permalink: /docs/variables-basic/cheatsheet
 ---

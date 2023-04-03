@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Types de données de base
-parent: Variables & Opérateurs
+parent: Variables et opérateurs
 nav_order: 3
 permalink: /docs/variables-basic/data-types
 ---

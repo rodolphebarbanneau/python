@@ -9,4 +9,4 @@ permalink: /docs/concepts
 # Concepts de base de la programmation
 {: .no_toc }
 
-![Guy learning Python...](../assets/python_natives.png)
+![Guy learning Python...](../assets/python-natives.png)
