@@ -42,7 +42,8 @@ permalink: /
 ## [Sprint 5 : Fonctions](./docs/05/index.md)
 - Comprendre ce qu'est une fonction et comment créer des fonctions en Python
 - Utilisation des arguments et des paramètres d'une fonction
-- Utilisation des fonctions anonymes ou lambda
+- Comprendre les fonctions récursives
+- Comprendre les fonctions anonymes ou lambda
 - Utilisation des méthodes natives
 
 ## [Sprint 6 : Modules et environnement](./docs/06/index.md)
