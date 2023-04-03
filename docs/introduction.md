@@ -93,6 +93,8 @@ x = (1 + 2 + 3 +
 
 ![VS Code](./assets/vscode.png)
 
+![VS Code shortcuts](./assets/vscode-shortcuts.png)
+
 ## Utilisation de GitHub
 GitHub est un service web qui permet de stocker des dépôts (repositories) de code source. GitHub est utilisé par de nombreux développeurs pour stocker et partager leur code source.
 
