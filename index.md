@@ -66,17 +66,23 @@ permalink: /
 - Présentation de bibliothèques couramment utilisées en Python, comme Numpy, Pandas et Matplotlib
 - Comprendre comment utiliser ces bibliothèques pour effectuer des opérations courantes
 
-## [Sprint 10 : Interface utilisateur graphique (GUI)](./docs/10/index.md)
-- Introduction aux interfaces utilisateur graphiques (GUI)
-- Utilisation du module tkinter pour créer une interface utilisateur graphique simple
-
-## [Sprint 11 : Base de données](./docs/11/index.md)
+## [Sprint 10 : Base de données](./docs/10/index.md)
 - Comprendre les bases de données et les concepts SQL
 - Utilisation du module sqlite pour stocker des données dans une base de données SQLite
+- Introduction aux différents types de bases de données
 
-## [Sprint 12 : Application Desktop](./docs/12/index.md)
+## [Sprint 11 : Web](./docs/11/index.md)
+- Introduction au développement web
+- Obtenir des données à partir d'une API web
+- Utilisation du module Django pour créer une application web simple
+
+## [Sprint 12 : Interface utilisateur graphique (GUI)](./docs/12/index.md)
+- Introduction aux interfaces utilisateur graphiques (GUI)
+- Utilisation du module PyQt pour créer une interface utilisateur graphique
+
+## [Sprint 13 : Application Desktop](./docs/13/index.md)
 - Utilisation des connaissances acquises au cours des neuf premiers sprints pour développer une petite application desktop
-- Utilisation de tkinter pour créer une interface utilisateur graphique
+- Utilisation de PyQt pour créer une interface utilisateur graphique
 - Stockage des données dans une base de données SQLite
 
 ----
