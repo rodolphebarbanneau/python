@@ -52,3 +52,28 @@ elif 1 > 2: # Sinon si
 else: # Sinon
     print("1 est égal à 2") # Afficher le message
 ```
+
+### Gestions d'erreurs
+Utilisation pour gérer les erreurs de manière automatique.
+```python
+try: # Essayer d'exécuter le code
+    1 / 0 # Division par zéro
+except ZeroDivisionError: # Si une erreur de type `ZeroDivisionError` est levée
+    print("Division par zéro") # Afficher le message
+except: # Si une autre erreur est levée
+    print("Une autre erreur est survenue") # Afficher le message
+else: # Si aucune erreur n'est levée
+    print("Aucune erreur n'est survenue") # Afficher le message
+finally: # Quoi qu'il arrive
+    print("Fin du programme") # Afficher le message
+```
+
+### Structure `with`
+Utilisation pour gérer les ressources de manière automatique.
+```python
+with open("fichier.txt", "r") as fichier: # Ouverture d'un fichier
+    # Code à exécuter
+
+with sqlite3.connect("ma_base.db") as connexion: # Connexion à une base de données
+    # Code à exécuter
+```
