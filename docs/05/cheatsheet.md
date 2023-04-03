@@ -46,6 +46,7 @@ resultat = somme(3, 5) # Resultat vaut 8
 ### Définition d'une fonction avec `*args` et `**kwargs`
 Ce sont des paramètres optionnels, ils permettent de récupérer un nombre indéfini de paramètres :
 - `*args` : permet de récupérer un nombre indéfini de paramètres sous forme de **tuple**.
+
 ```python
 # Fonction avec *args (tuple)
 def nom_fonction_args(*args):
@@ -57,6 +58,7 @@ nom_fonction_args(1, 2, 3) # Affiche (1, 2, 3)
 ```
 
 - `**kwargs` : permet de récupérer un nombre indéfini de paramètres sous forme de **dictionnaire**, on les appelle aussi paramètres nommés.
+
 ```python
 # Fonction avec **kwargs (dict)
 def nom_fonction_kwargs(**kwargs):
